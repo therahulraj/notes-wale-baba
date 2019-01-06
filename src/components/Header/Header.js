@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Aux from '../../hoc/Auxilliary/Auxilliary';
-import NavigationBar from './Navigation/NavigationBar/NavigationBar';
+// import Aux from '../../hoc/Auxiliary/Auxiliary';
+import NavigationBar from './NavigationArea/NavigationBar/NavigationBar';
 import HeroArea from './HeroArea/HeroArea';
 
 const header = (props) => (
-  <Aux>
+  <header>
      <NavigationBar />
      <HeroArea />
-  </Aux>
+  </header>
 )
 
 export default header;
