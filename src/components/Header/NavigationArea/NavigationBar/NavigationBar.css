@@ -1,0 +1,11 @@
+.NavBar {
+    padding: 20px 50px;
+}
+.Nav__account {
+    border: 1.5px solid #fff;
+    border-radius: 50px;
+}
+.Nav__items li a {
+   color: #fff;
+   text-decoration: none;
+}
