@@ -6,10 +6,18 @@ import Modal from '../UI/Modal/Modal';
 
 class Layout extends Component {
   state = {
-    loginRegister: false
+    loginRegister: false,
+    showNavDropDown: false
   }
   loginRegisterHandler = () => {
     this.setState({loginRegister: true});
+ }
+ toggleNavDropDownHandler = () => {
+   console.log('clicked');
+   console.log(this.state.showNavDropDown);
+   this.setState( (prevState)  => {
+     return { showNavDropDown: !prevState.showNavDropDown}
+   });
  }
  loginRegisterCancelHandler = () => {
    this.setState({loginRegister: false});
@@ -23,7 +31,9 @@ class Layout extends Component {
       >
       <div>whoo!</div>
       </Modal>
-      <Header loginRegisterClicked={this.loginRegisterHandler}/>
+      <Header loginRegisterClicked={this.loginRegisterHandler} 
+      toggleNavDropDownClicked={this.toggleNavDropDownHandler} 
+      showNavDropDownState={this.state.showNavDropDown} />
         {this.props.children}
       </Aux>
     )

@@ -1,11 +1,54 @@
 .NavBar {
     padding: 20px 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    
 }
-.Nav__account {
+.NavBar__Account {
     border: 1.5px solid #fff;
     border-radius: 50px;
 }
-.Nav__items li a {
-   color: #fff;
-   text-decoration: none;
+
+.HamBurger {
+    width: 30px;
+}
+.HamBurger__Button {
+    border: 0px solid;
+    /* display: none; */
+}
+.HamBurger__Button__Display {
+    display: none;
+}
+.NavBar__close {
+    /* z-index: 1000; */
+    display: none;
+    transition: all .2s;
+}
+.NavBar__show {
+
+    display: none;
+    transition: all .2s;
+    /* width: 100%; */
+}
+.NavBar__Show__Content {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .NavBar__show {
+        display: block;
+        transform: translateY(0);
+        transition: all .2s;
+    }
+    .HamBurger__Button__Display {
+        display: block;
+    }
+    .NavBar__Show__Content {
+        display: none;
+    }
+    .NavBar__ListLogoButton {
+        width: 100%;
+    }
 }
