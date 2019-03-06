@@ -1,7 +1,7 @@
 import React from 'react';
 
 import classes from './NavigationBar.css';
-import hamBurger from '../../../../assets/images/menu.svg';
+import hamBurgerSvg from '../../../../assets/images/menu.svg';
 
 // import NavigationBarItems from './NavigationBarItems/NavigationBarItems'
 import Logo from './Logo/Logo';
@@ -16,7 +16,7 @@ const navigationBar = ( props ) => {
   // attachedClassesShowNavDropDownString = attachedClassesShowNavDropDown.join(' ');
 
   return (
-    <nav className={"d-flex flex-column flex-md-row justify-content-between align-items-center bg_cl_pr " + classes.NavBar}> 
+    <nav className={"d-flex flex-column flex-md-row justify-content-between align-items-center " + classes.NavBar}> 
     <div className={classes.NavBar__ListLogoButton}>
     <ul className={'list-unstyled mb-0 d-flex flex-row justify-content-between align-items-center'} >
        <li className="">
@@ -24,7 +24,7 @@ const navigationBar = ( props ) => {
        </li>
        <li className={classes.HamBurger__Button__Display} onClick={props.toggleNavDropDownOnClick} >
          <button className={"bg_cl_pr " + classes.HamBurger__Button}>
-         <img src={hamBurger} className={classes.HamBurger} alt=""/>
+         <img src={hamBurgerSvg} className={classes.HamBurger} alt=""/>
          </button>
         </li>
       </ul>

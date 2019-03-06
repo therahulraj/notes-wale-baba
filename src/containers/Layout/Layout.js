@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import Aux from '../../hoc/Auxiliary/Auxiliary';
-import Header from '../Header/Header';
-import Modal from '../UI/Modal/Modal';
+import Header from '../../components/Header/Header';
+import Modal from '../../components/UI/Modal/Modal';
 
 class Layout extends Component {
   state = {

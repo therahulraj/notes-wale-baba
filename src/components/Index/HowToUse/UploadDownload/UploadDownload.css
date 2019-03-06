@@ -1,0 +1,27 @@
+.UploadDownload {
+    box-shadow: 0px 0px 8px rgba(23, 108, 108,.3);
+    width: calc(100% - 70%);
+}
+.UploadDownload img {
+    width: 100px;
+}
+.PrimaryButton {
+    padding: 10px 60px;
+    /* width: 52px; */
+    background-color: rgba(0,0,0,0);
+    border: 1.5px solid rgb(23,108,108);
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(23,108,108);
+}
+.PrimaryButton:hover {
+    text-decoration: none;
+    background-color: rgb(23,108,108);
+    color: #fff;
+}
+@media (max-width: 768px) {
+   .UploadDownload {
+    width: auto;
+   }
+}

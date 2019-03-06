@@ -4,7 +4,7 @@
     top: 0;
     width: 100%;
     z-index: 1000;
-    
+    background-color: rgba(23,108,108, .2);
 }
 .NavBar__Account {
     border: 1.5px solid #fff;

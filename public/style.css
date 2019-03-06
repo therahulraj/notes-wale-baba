@@ -4,6 +4,8 @@
 :root {
   --primary-theme-color: rgb(23,108,108);
   --secondary-theme-color: rgb(158,158,157);
+  --text-color: rgb(70, 83, 98);
+  --primary-dark-theme-color: rgb(14, 66, 66);
 } 
 * {
   outline: none;
@@ -42,6 +44,9 @@ body {
   .fs_14{
   font-size: 14px;
   }
+  .fs_18{
+    font-size: 18px;
+    }
   .fs_15{
   font-size: 15px;
   }
@@ -118,8 +123,14 @@ body {
   .cl_wh {
     color: #fff;
   }
+  .cl_pr {
+    color: var(--primary-theme-color);
+  }
   .cl_bl {
     color: #000;
+  }
+  .cl_tc {
+    color: var(--text-color);
   }
   /* some common css classes
   nav {
