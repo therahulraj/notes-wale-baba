@@ -10,6 +10,7 @@ const header = props => (
       loginRegisterOnClick={props.loginRegisterClicked}
       toggleNavDropDownOnClick={props.toggleNavDropDownClicked}
       showNavDropDownProps1={props.showNavDropDownState}
+      navigationBarBackgroundProps1={props.navigationBarBackgroundState}
     />
     <HeroArea />
   </header>

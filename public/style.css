@@ -102,6 +102,19 @@ body {
     letter-spacing: 1px;
   }
 
+  .d_bl {
+    display: block;
+  }
+  .a_hov:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  .d_in {
+    display: inline;
+  }
+  .d-inbl {
+    display: inline-block;
+  }
   .bg_cl_tr {
     background-color: rgba(0,0,0,0);
   }
@@ -113,6 +126,12 @@ body {
   }
   .bg_cl_pr {
     background-color: var(--primary-theme-color);
+  }
+  .bg_cl_tr {
+    background-color: rgba(0,0,0,0);
+  }
+  .bg_cl_pr_dr {
+    background-color: var(--primary-dark-theme-color);
   }
   .bg_cl_se {
     background-color: var(--secondary-theme-color);

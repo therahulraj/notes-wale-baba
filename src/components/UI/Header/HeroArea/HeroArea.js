@@ -2,8 +2,8 @@ import React from 'react';
 
 import classes from './HeroArea.css';
 
-import Input from '../../UI/Input/Input';
-import Button  from '../../UI/Button/Button';
+import Input from '../../Input/Input';
+import Button  from '../../Button/Button';
 
 const heroArea = (props) => (
   <div className={'text-center pb-5 pt-5 ' + classes.HeroArea} >

@@ -27,9 +27,3 @@ const uploadDownload = props => {
 };
 
 export default uploadDownload;
-
-
-// 3001(1) 3002(1, 2) 3003(2) 3004(1, 2) 3005(2)
-//             c        c       
-// 4001(2) 4002(2) 4003(2) 4005(2)
-//           c

@@ -1,0 +1,15 @@
+.NavBar__Logo {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: .40rem;
+    border-radius: 4px;
+    transition: all .2s;
+}
+.NavBar__Logo img {
+    width: 60px;
+}
+.Logo img {
+   
+   width: 60px;
+   /* height: 50px; */
+}

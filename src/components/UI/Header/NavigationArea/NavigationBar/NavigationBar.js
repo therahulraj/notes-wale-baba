@@ -1,10 +1,12 @@
 import React from 'react';
 
 import classes from './NavigationBar.css';
-import hamBurgerSvg from '../../../../assets/images/menu.svg';
+import hamBurgerSvg from '../../../../../assets/images/menu.svg';
+import notesWaleBabaLogo from '../../../../../assets/images/logo2.png';
 
 // import NavigationBarItems from './NavigationBarItems/NavigationBarItems'
-import Logo from './Logo/Logo';
+import Logo from '../../../Logo/Logo';
+
 
 const navigationBar = ( props ) => {
   // let attachedClassesShowNavDropDownString = '';
@@ -13,17 +15,31 @@ const navigationBar = ( props ) => {
     console.log(props.showNavDropDownProps1);
     attachedClassesShowNavDropDown = [classes.NavBar__show]
   }
+
+  // let onScrollHandler = () =>  {
+  //  console.log('scrroll is working');
+  // }
+
   // attachedClassesShowNavDropDownString = attachedClassesShowNavDropDown.join(' ');
 
   return (
-    <nav className={"d-flex flex-column flex-md-row justify-content-between align-items-center " + classes.NavBar}> 
+    <nav
+    style={{
+      backgroundColor: props.navigationBarBackgroundProps1 ? 'rgba(23,108,108, 1)' : 'rgba(23,108,108, .2)',
+      padding: props.navigationBarBackgroundProps1 ? '12px 50px' : '20px 50px'
+      
+    }}
+    className={"d-flex flex-column flex-md-row justify-content-between align-items-center " + classes.NavBar}
+    > 
     <div className={classes.NavBar__ListLogoButton}>
     <ul className={'list-unstyled mb-0 d-flex flex-row justify-content-between align-items-center'} >
-       <li className="">
-        <Logo />
+       <li>
+        <Logo classType="NavBar__Logo"
+              imageUrl={notesWaleBabaLogo}
+              navigationBarBackgroundProps2={props.navigationBarBackgroundProps1}/>
        </li>
        <li className={classes.HamBurger__Button__Display} onClick={props.toggleNavDropDownOnClick} >
-         <button className={"bg_cl_pr " + classes.HamBurger__Button}>
+         <button className={"bg_cl_tr " + classes.HamBurger__Button}>
          <img src={hamBurgerSvg} className={classes.HamBurger} alt=""/>
          </button>
         </li>
