@@ -5,7 +5,7 @@ import hamBurgerSvg from '../../../../../assets/images/menu.svg';
 import notesWaleBabaLogo from '../../../../../assets/images/logo2.png';
 
 // import NavigationBarItems from './NavigationBarItems/NavigationBarItems'
-import Logo from '../../../Logo/Logo';
+import Logo from './Logo/Logo';
 
 
 const navigationBar = ( props ) => {

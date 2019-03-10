@@ -9,7 +9,7 @@ const links = (props) => {
     let items = React.Children.map(props.children, fn);
 
   return (
-    <div className={'col-6 cl_wh text-center ' + classes.Links}>
+    <div className={'col-6 cl_wh text-center text-md-left ' + classes.Links}>
      <div className="d-inbl text-left">
       <p className={'cl_wh fs_15 fw_600'}>{props.heading}</p>
       {items}

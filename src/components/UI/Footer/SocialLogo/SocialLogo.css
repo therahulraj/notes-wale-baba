@@ -1,0 +1,21 @@
+.Footer__SocialLink__Facebook, 
+.Footer__SocialLink__Twitter, 
+.Footer__SocialLink__Instagram {
+    margin: 0 10px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.Footer__SocialLink__Facebook img, 
+.Footer__SocialLink__Twitter img, 
+.Footer__SocialLink__Instagram img {
+    width: 25px;
+}
+.Footer__SocialLink__Facebook:hover {
+    background-color: #3b5999;
+}
+.Footer__SocialLink__Twitter:hover {
+    background-color: #55acee;
+}
+.Footer__SocialLink__Instagram:hover {
+    background-color: #e4405f
+}

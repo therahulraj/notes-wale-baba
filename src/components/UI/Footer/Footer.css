@@ -2,3 +2,13 @@
     background-color: rgb(14, 66, 66);
     padding: 0 50px;
 }
+.Copyright img {
+    width: 15px;
+}
+.Copyright {
+    font-size: 12px;
+}
+.Footer__HorizontalLine {
+    height: 1px;
+    width: 100%;
+}
