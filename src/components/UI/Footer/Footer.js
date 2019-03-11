@@ -9,6 +9,7 @@ import CopyrightLogo from "../../../assets/images/copyright.svg";
 import FacebookLogo from "../../../assets/images/facebook.svg";
 import TwitterLogo from "../../../assets/images/twitter.svg";
 import InstagramLogo from "../../../assets/images/instagram.svg";
+import LinkedinLogo from "../../../assets/images/linkedin.svg"
 
 
 const footer = () => {
@@ -92,7 +93,7 @@ const footer = () => {
                   <Logo
                     imageUrl={NotesWaleBabaWhiteLogo}
                     classType="Footer__Logo"
-                  />
+                  />&nbsp;&nbsp;
                   <div
                     className={
                       classes.Copyright +
@@ -119,6 +120,10 @@ const footer = () => {
                   <SocialLogo
                   classType="Footer__SocialLink__Instagram"
                   imageUrl={InstagramLogo}
+                  />
+                  <SocialLogo
+                  classType="Footer__SocialLink__Linkedin"
+                  imageUrl={LinkedinLogo}
                   />
                 </div>
               </div>
