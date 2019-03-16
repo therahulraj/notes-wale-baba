@@ -1,0 +1,73 @@
+.IndividualNote {
+    /* border: 1px solid #000; */
+    box-shadow: 0px 0px 8px rgba(23, 108, 108,.3);
+}
+.IndividualNote__Figure img {
+    width: 100%;
+}
+/* .IndividualNote__Like__Button {
+    padding: 12px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(23,108,108);
+} */
+.IndividualNote__Person {
+    padding: 10px 0 20px 0;
+}
+.IndividualNote__Person__Image {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.IndividualNote__Heading {
+    padding: 15px 0;
+}
+.IndividualNote__Heading h5 {
+    color: rgb(23, 108, 108);
+    font-size: 22px;
+    font-weight: 600;
+}
+.IndividualNote__Info {
+    padding: 10px 0;
+}
+.IndividualNote__Info__Downloads {
+    color: rgba(23, 108, 108, .8);
+    font-size: 14px;
+    /* border-right: 1px solid rgba(23, 108, 108, .8); */
+}
+.IndividualNote__Info__Views {
+    color: rgba(23, 108, 108, .8);
+    font-size: 14px;
+}
+.IndividualNote__Info__Rating {
+    background-color: rgba(23, 108, 108, .8);
+    color: #fff;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 3px;
+}
+.IndividualNote__Person__Hosted__Text {
+    color: rgba(23, 108, 108, .8); 
+    font-size: 14px;
+}
+.IndividualNote__Person__Hosted__Text:hover {
+    text-decoration: none;
+}
+.IndividualNote__Person__Description {
+    color: rgba(23, 108, 108, .8);
+    font-size: 14px;
+}
+.IndividualNote__Person__Name {
+    font-size: 16px;
+    font-weight: 600;
+}
+.IndividualNote__Person__Name a {
+    color: rgba(23, 108, 108, 1);
+    text-decoration: none;
+}
+.IndividualNote__Person__Name a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,8 @@
+.FeaturedNotes {
+    padding: 0 140px;
+}
+@media (max-width: 576px) {
+    .FeaturedNotes {
+        padding: 0 14px;
+    }
+}

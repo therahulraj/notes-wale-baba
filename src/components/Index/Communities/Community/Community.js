@@ -1,15 +1,14 @@
 import React from "react";
 
+import classes from './Community.css'
+
 const community = props => {
   return (
-    <div className="col-md-2">
-      <div>
-        <div>
-          <img src={props.imageUrl} alt="notes wale baba" />
-        </div>
-        <div />
-      </div>
-    </div>
+      <div style={{
+        backgroundImage: `url(${props.imageUrl})`
+      }} 
+      className={'mx-auto ' + classes.Community}></div>
+    
   );
 };
 

@@ -1,0 +1,12 @@
+.Community {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 310px;
+}
+@media (max-width: 576px) {
+    .Community {
+        height: 180px;
+        width:  90vw;
+    }
+}

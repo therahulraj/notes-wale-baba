@@ -22,6 +22,12 @@ body {
   padding: 0px;
   margin: 0px;
 }
+p {
+  margin-bottom: 0;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0;
+}
 
 /* some common css classes */
 
@@ -151,7 +157,54 @@ body {
   .cl_tc {
     color: var(--text-color);
   }
-  /* some common css classes
-  nav {
-      background-color: #000;
-  } */
+
+/* in the communities effect */
+/* for the carousel effect */
+  .qjTTg {
+    padding: 0 140px;
+}
+.qjTTg > div:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 120px!important;
+  opacity: .6;
+}
+.qjTTg > div:nth-child(2) img {
+  width: 30px; 
+}
+.qjTTg > div:nth-child(2):hover {
+  opacity: 1;
+}
+.qjTTg > div:nth-child(3) img {
+  width: 30px;
+}
+.qjTTg > div:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 120px!important;
+  opacity: .6;
+}
+.qjTTg > div > div > div img {
+  /* width: 30px; */
+}
+
+@media (max-width: 576px) {
+.qjTTg {
+    padding: 0 40px;
+}
+.qjTTg > div:first-child > div > div {
+  width: 90vw;
+}
+.qjTTg > div:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 10px!important;
+  opacity: .6;
+}
+.qjTTg > div:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 10px!important;
+  opacity: .6;
+}
+}
