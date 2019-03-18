@@ -8,8 +8,8 @@ import IndividualNote from "./IndividualNote/IndividualNote";
 const featuredNotes = (props) => {
   return (
     <div className={"py-5 " + classes.FeaturedNotes}>
-      <h3 className="fs_28 fw_700 cl_pr mb-0 mb-md-4 px-3">FEATURED NOTES</h3>
-      <div className="row justify-content-between">
+      <h3 className="primary_heading mb-md-5 mb-3 pl-0 pl-md-3">FEATURED NOTES</h3>
+      <div className="row no-gutters justify-content-between">
       <IndividualNote 
       imageUrl={categoryBooks}
       heading="NCERT Physics notes"

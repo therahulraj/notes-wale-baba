@@ -9,8 +9,8 @@ class Index extends Component {
   render () {
     return (
     <Aux>
+      {/* <Communities /> */}
       <HowToUse/>
-      <Communities />
       <FeaturedNotes />
     </Aux>
       

@@ -1,0 +1,8 @@
+.Communities {
+    padding: 0 180px;
+}
+@media (max-width: 768px) {
+    .Communities {
+        padding: 0 140px;
+    }
+}

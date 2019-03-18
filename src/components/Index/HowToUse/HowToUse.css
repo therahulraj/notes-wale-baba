@@ -1,0 +1,9 @@
+.HowToUse {
+    /* padding: 0 140px; */
+    background-color: rgba(23, 108, 108, .2);
+}
+@media (max-width: 768px) {
+    .HowToUse {
+        padding: 0 10px;
+    }
+}

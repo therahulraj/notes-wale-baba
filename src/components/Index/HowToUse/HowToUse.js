@@ -1,5 +1,7 @@
 import React from "react";
 
+import classes from './HowToUse.css';
+
 import UploadDownload from "./UploadDownload/UploadDownload";
 import moneySvg from '../../../assets/images/money.svg';
 import notebookSvg from '../../../assets/images/notebook.svg';
@@ -7,9 +9,9 @@ import notebookSvg from '../../../assets/images/notebook.svg';
 
 const howToUse = props => {
   return (
-    <div className="py-5">
-      <h3 className="fs_28 fw_700 cl_pr text-center">WHY YOU SHOULD CHOOSE US</h3>
-      <div className="d-flex flex-md-row flex-column justify-content-center mt-5">
+    <div className={"py-5 " + classes.HowToUse}>
+      <h3 className={"primary_heading text-center mb-3 mb-md-5"}>WHY YOU SHOULD CHOOSE US</h3>
+      <div className="d-flex flex-md-row flex-column justify-content-center">
         <UploadDownload
         topic="Notes"
         heading="Upload then Earn"

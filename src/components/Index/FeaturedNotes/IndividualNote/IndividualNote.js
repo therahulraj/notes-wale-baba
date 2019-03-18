@@ -1,35 +1,36 @@
 import React from "react";
 
 import classes from "./IndividualNote.css";
+import downloadIcon from "../../../../assets/images/download1.png";
 
 const individualNote = props => {
   return (
-    <div className="col-md-4 mt-md-4 mt-0">
+    <div className="col-lg-4 col-6 my-md-3 my-2 px-2 px-md-3">
       <div className={classes.IndividualNote}>
         <div className={classes.IndividualNote__Figure}>
           <img src={props.imageUrl} />
         </div>
-        <div className="px-3">
+        <div className="px-2 px-sm-3">
           <div className={classes.IndividualNote__Heading}>
             <h5>{props.heading}</h5>
           </div>
           <div className={classes.IndividualNote__Info}>
-            <div className="d-flex flex-row justify-content-between">
+            <div className="d-flex flex-row align-items-center justify-content-between">
             <div className={classes.IndividualNote__Info__Rating}>{props.ratingsNumber}</div>
-            <div className={classes.IndividualNote__Info__Downloads}>{props.downloadsNumber} Downloads</div>
+            <div className={classes.IndividualNote__Info__Downloads}>{props.downloadsNumber} <img src={downloadIcon} /></div>
             <div className={classes.IndividualNote__Info__Views}>{props.viewsNumber} Views</div>
             </div>
           </div>
           <div className={classes.IndividualNote__Person}>
-            <div className="d-flex flex-row">
+            <div className="d-flex flex-row align-items-center">
               <div
                 className={classes.IndividualNote__Person__Image}
                 style={{
                   backgroundImage: `url(${props.personImageUrl})`
                 }}
               />
-              <div className="d-flex flex-column pl-3">
-                <p className={classes.IndividualNote__Person__Name}><span className={classes.IndividualNote__Person__Hosted__Text}>Hosted By </span>
+              <div className={"d-flex flex-column pl-1 pl-md-3 " + classes.IndividualNote__Person__Name__Description} >
+                <p className={classes.IndividualNote__Person__Name}><span className={classes.IndividualNote__Person__Hosted__Text}>By </span>
                 <a href="#">{props.personName}</a></p>
                 <p className={classes.IndividualNote__Person__Description}>{props.personDescription}</p>
               </div>

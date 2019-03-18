@@ -20,6 +20,11 @@
     background-color: rgb(23,108,108);
     color: #fff;
 }
+@media (max-width: 576px) {
+    .UploadDownload img {
+        width: 80px;
+    }
+}
 @media (max-width: 768px) {
    .UploadDownload {
     width: auto;
