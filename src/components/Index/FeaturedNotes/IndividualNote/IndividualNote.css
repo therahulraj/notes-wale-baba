@@ -42,7 +42,7 @@
 .IndividualNote__Info__Downloads {
     color: #fff;
     /* font-weight: 700; */
-    background-color: rgba(23, 108, 108, .8);
+    background-color: rgba(23, 108, 108, .4);
     
     /* font-size: 14px; */
     /* border-right: 1px solid rgba(23, 108, 108, .8); */
@@ -52,23 +52,23 @@
 }
 .IndividualNote__Info__Views {
     color: #fff;
-    background-color: rgba(23, 108, 108, .8);
+    background-color: rgba(23, 108, 108, .4);
     /* font-size: 14px; */
 }
 .IndividualNote__Info__Rating {
-    background-color: rgba(23, 108, 108, .8);
+    background-color: rgba(23, 108, 108, .4);
     color: #fff;
     /* font-size: 14px; */
 }
 .IndividualNote__Person__Hosted__Text {
-    color: rgba(23, 108, 108, .8); 
+    color: rgba(23, 108, 108, .4); 
     /* font-size: 14px; */
 }
 .IndividualNote__Person__Hosted__Text:hover {
     text-decoration: none;
 }
 .IndividualNote__Person__Description {
-    color: rgba(23, 108, 108, .8);
+    color: rgba(23, 108, 108, .6);
     font-size: 14px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -103,7 +103,7 @@
         height: 35px;
     }
     .IndividualNote__Person__Hosted__Text {
-        color: rgba(23, 108, 108, .8); 
+        color: rgba(23, 108, 108, .8s); 
         font-size: 12px;
     }
     .IndividualNote__Person__Name {

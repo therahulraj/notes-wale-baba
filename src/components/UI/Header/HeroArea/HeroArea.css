@@ -10,7 +10,26 @@
   font-size: 50px;
   font-weight: 800;
 }
-
+.HeroArea__Categories__viewAll {
+  background-color: #fff;
+  padding: 5px;
+  color: rgb(23,108,108);
+  border-radius: 10px;
+  font-size: 10px;
+}
+.HeroArea__Categories > div > a {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 5px;
+}
+.HeroArea__Categries__Category {
+  /* height: 80%; */
+  border-right: 2px solid #fff;
+  /* border-left: 2px solid #fff; */
+}
+.HeroArea__Categries__Category a {
+  color: #fff;
+}
 @media (max-width: 768px) {
   .HeroArea__Primary__Heading {
     font-size: 40px;

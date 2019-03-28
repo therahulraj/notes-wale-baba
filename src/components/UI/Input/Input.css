@@ -13,3 +13,9 @@
   color: #fff;
   opacity: .8;
 }
+@media (max-width: 576px) {
+  .HeroAreaInput {
+    width: 220px;
+    height: 38px;
+  }
+}
